@@ -32,11 +32,14 @@
   在过往的一道迷宫图中半天拿不出地图，这时候动态就排上用场了，当发现题目中涉及到的程序内部值无法查看和获取时，可以通过动调获取内容数值。
   1.迷宫先找迷宫
   
-  <img title= " " src="https://img.cdn1.vip/i/69396dcb89a45_1765371339.png" alt="8ce1f759-a2c9-461e-8c9a-3a1a2e41e2ab" style="zoom:67%;">
+  <img title= " " src="https://img.cdn1.vip/i/69396dcb89a45_1765371339.png" 
+    alt="8ce1f759-a2c9-461e-8c9a-3a1a2e41e2ab" style="zoom:67%;">
   
   
   
-  <img src="https://img.cdn1.vip/i/693ac1391edbb_1765458233.png" title="" alt="6cae87e8-6db7-456f-b3ab-3ac69fbdcd47" style="zoom:80%;">
+  <img src="https://img.cdn1.vip/i/693ac1391edbb_1765458233.png" title="" 
+    alt="6cae87e8-6db7-456f-b3ab-3ac69fbdcd47" style="zoom:80%;">
+  
   
   ![ba0f082c-8cf5-4019-9e85-2284bb12861e](https://img.cdn1.vip/i/693ac180c7e46_1765458304.png)
   
@@ -46,7 +49,8 @@
   
   2.接下来我们需要再地图函数中下断点。
   
-  <img title="" src="(https://img.cdn1.vip/i/693ac1a875b49_1765458344.png)" alt="a65f35dd-a7bc-4aee-bbc2-2cee125cb633" style="zoom:67%;">
+  <img title="" src="(https://img.cdn1.vip/i/693ac1a875b49_1765458344.png)"
+    alt="a65f35dd-a7bc-4aee-bbc2-2cee125cb633" style="zoom:67%;">
   
   
    运行后结果
