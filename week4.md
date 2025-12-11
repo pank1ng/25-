@@ -10,16 +10,21 @@
   
   不考虑脱壳，关于暂且命名为，隐藏函数（自己编的自己好归类），就是并没有再主函数中被调用的函数，而flag就可能藏在其中，为了调用这个函数，我们可以通过ida修改eip来跳转到ques函数，以下为步骤；
   1.先记下你要调用的函数地址（以下是例子）
-  ![eaf08257-db89-4d41-b1d6-9efbccf7b8ed]https://img.cdn1.vip/i/693abfd169669_1765457873.webp
+  ![eaf08257-db89-4d41-b1d6-9efbccf7b8ed](https://img.cdn1.vip/i/693abfd169669_1765457873.webp)
+  
   记下ques的引用地址  这里是0x00401520；
   2.之后再主函数运行的途中随便下一个断点：
-  ![20057d17-f7f5-4adb-b29b-911b33b36f5f](file:///C:/Users/1/Pictures/Typedown/20057d17-f7f5-4adb-b29b-911b33b36f5f.png)
+  ![20057d17-f7f5-4adb-b29b-911b33b36f5f](https://img.cdn1.vip/i/693ac0371339b_1765457975.webp)
+  
   3.然后在调试器中进行调试
-  ![04f21d2d-b92e-43d1-9bcb-cbc46f636168](file:///C:/Users/1/Pictures/Typedown/04f21d2d-b92e-43d1-9bcb-cbc46f636168.png)
+  ![04f21d2d-b92e-43d1-9bcb-cbc46f636168](https://img.cdn1.vip/i/693ac083d7579_1765458051.png)
+  
   之后能看到main函数的EIP地址为0x00401761，之后我们需要双击这串地址就可以将其修改为我们要运行的函数的地址。
-  ![46360291-30cf-4652-b241-cd37e30ff40e](file:///C:/Users/1/Pictures/Typedown/46360291-30cf-4652-b241-cd37e30ff40e.png)
+  ![46360291-30cf-4652-b241-cd37e30ff40e](https://img.cdn1.vip/i/693ac09fa42d4_1765458079.webp)
+  
   然后再运行一下就能看到这串没有被引用的函数在干嘛了
-  ![d97ecdd2-d21d-4e71-8017-9e4c3599f035](file:///C:/Users/1/Pictures/Typedown/d97ecdd2-d21d-4e71-8017-9e4c3599f035.png)
+  ![d97ecdd2-d21d-4e71-8017-9e4c3599f035](https://img.cdn1.vip/i/693ac0c3503cb_1765458115.webp)
+  
   
   # 2-获取内容数据
   
