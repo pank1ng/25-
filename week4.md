@@ -10,7 +10,7 @@
   
   不考虑脱壳，关于暂且命名为，隐藏函数（自己编的自己好归类），就是并没有再主函数中被调用的函数，而flag就可能藏在其中，为了调用这个函数，我们可以通过ida修改eip来跳转到ques函数，以下为步骤；
   1.先记下你要调用的函数地址（以下是例子）
-  ![eaf08257-db89-4d41-b1d6-9efbccf7b8ed](file:///C:/Users/1/Pictures/Typedown/eaf08257-db89-4d41-b1d6-9efbccf7b8ed.png)
+  ![eaf08257-db89-4d41-b1d6-9efbccf7b8ed]https://img.cdn1.vip/i/693abfd169669_1765457873.webp
   记下ques的引用地址  这里是0x00401520；
   2.之后再主函数运行的途中随便下一个断点：
   ![20057d17-f7f5-4adb-b29b-911b33b36f5f](file:///C:/Users/1/Pictures/Typedown/20057d17-f7f5-4adb-b29b-911b33b36f5f.png)
