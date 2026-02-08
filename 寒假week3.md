@@ -105,7 +105,8 @@
 
 
 
-![015d0365-fb99-4da5-af83-e537c7d8c238](file:///C:/Users/1/Pictures/Typedown/015d0365-fb99-4da5-af83-e537c7d8c238.png)
+![015d0365-fb99-4da5-af83-e537c7d8c238](https://img.cdn1.vip/i/6987ec26ec4ca_1770515494.webp)
+
 
 ## 关于寻址方式实际的应用：
 
@@ -181,11 +182,13 @@
 
 ### 补充一下汇编指令的图方便理解
 
-![c873dd56-2e53-4e85-96d4-e2b1ab7d25d5](file:///C:/Users/1/Pictures/Typedown/c873dd56-2e53-4e85-96d4-e2b1ab7d25d5.png)
+![c873dd56-2e53-4e85-96d4-e2b1ab7d25d5](https://img.cdn1.vip/i/6987ec5655221_1770515542.webp)
+
 
 # CPU的组成
 
-![01506fd4-0392-4ea4-b3b6-661b106e0edb](file:///C:/Users/1/Pictures/Typedown/01506fd4-0392-4ea4-b3b6-661b106e0edb.png)
+![01506fd4-0392-4ea4-b3b6-661b106e0edb](https://img.cdn1.vip/i/6987ec780f68c_1770515576.webp)
+
 
 - CUP在工作时
   
@@ -201,7 +204,8 @@
 
 下图对应的8086
 
-![57a3cd77-b065-44ba-a452-30735cfd986c](file:///C:/Users/1/Pictures/Typedown/57a3cd77-b065-44ba-a452-30735cfd986c.png)
+![57a3cd77-b065-44ba-a452-30735cfd986c](https://img.cdn1.vip/i/6987ec94a13c0_1770515604.webp)
+
 
 - CPU访问内存单元时要给出内存单元的地址
 
@@ -225,13 +229,15 @@
 
 将下图蓝色部分的寄存器中16位的数据传到位址加法器中进行运算
 
-![5ed831fd-6453-476d-9205-b0103cf63a9b](file:///C:/Users/1/Pictures/Typedown/5ed831fd-6453-476d-9205-b0103cf63a9b.png)
+![5ed831fd-6453-476d-9205-b0103cf63a9b](https://img.cdn1.vip/i/6987eca38b4da_1770515619.webp)
+
 
 - 通过用两个16位地址（段地址，偏移地址）合成一个20位的物理地址。
 
 - 物理地址=段地址×16＋偏移地址
 
-![1e559143-f988-4ff6-8d73-1404a0463983](file:///C:/Users/1/Pictures/Typedown/1e559143-f988-4ff6-8d73-1404a0463983.png)
+![1e559143-f988-4ff6-8d73-1404a0463983](https://img.cdn1.vip/i/6987ecc06b0da_1770515648.webp)
+
 
 例子：
 
