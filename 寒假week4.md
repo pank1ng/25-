@@ -172,11 +172,11 @@ True
     else:
         print("无解")
 
-![144f6a0c-f13d-4864-b469-8adca04e8e20](file:///C:/Users/1/Pictures/Typedown/144f6a0c-f13d-4864-b469-8adca04e8e20.png)
+[![ZddVOe.png](https://i.imgs.ovh/2026/04/12/ZddVOe.png)](https://imgloc.com/image/ZddVOe)
 
 得到解
 
-![c3236811-2fc1-4df6-9c53-e2843dcfec95](file:///C:/Users/1/Pictures/Typedown/c3236811-2fc1-4df6-9c53-e2843dcfec95.png)
+[![ZddTKh.png](https://i.imgs.ovh/2026/04/12/ZddTKh.png)](https://imgloc.com/image/ZddTKh)
 
 ## 注意的点
 
@@ -192,7 +192,7 @@ True
 
 #### 还是先看main函数
 
-![3f109ef6-6d56-4a4d-9656-f88b5b61b2f2](file:///C:/Users/1/Pictures/Typedown/3f109ef6-6d56-4a4d-9656-f88b5b61b2f2.png)
+[![ZddrWL.png](https://i.imgs.ovh/2026/04/12/ZddrWL.png)](https://imgloc.com/image/ZddrWL)
 
 - 1.通过算法得到v4
 
@@ -200,7 +200,7 @@ True
 
 #### 那接下来就是检查check函数
 
-![39896be4-7f43-461d-a646-8bbaf0e41d5a](file:///C:/Users/1/Pictures/Typedown/39896be4-7f43-461d-a646-8bbaf0e41d5a.png)
+[![ZdEtQA.png](https://i.imgs.ovh/2026/04/12/ZdEtQA.png)](https://imgloc.com/image/ZdEtQA)
 
 因为是对a1进行的计算，我们可以猜测a1就是输入flag的地方，为了方便可以备注一手
 
